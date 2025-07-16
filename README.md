@@ -23,8 +23,18 @@ Following are a few errors mistakes one might make in languages like C/C++ (but 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
+## Variables
+Every variable that you declare is **immutable by default**. This means that once a value is assined to the variable,it can be changed. This ensures that it won't make special provisions like *spin locks or mutexes* to introduce multi-threading.
 
+Variables can be explicitly defined to allow mutation they are called mutable variables.
 
+```
+// immutable variable
+let variable_name1 = value1;
+
+// mutable variable
+let mut variable_name2 = value2;
+```
 
 ## Links
 

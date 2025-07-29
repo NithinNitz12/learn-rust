@@ -43,3 +43,8 @@ let mut variable_name2 = value2;
 ```
 https://itsfoss.com/rust-tutorials/
 ```
+
+### Let's Get Rusty
+```
+https://learn.letsgetrusty.com/index.html
+```
